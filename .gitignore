@@ -4,3 +4,5 @@
 *.log
 *.out
 *.run.xml
+*.sublime-project
+*.sublime-workspace
