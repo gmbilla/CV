@@ -1,0 +1,171 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+% \addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Gian Marco}{Sibilla}{freelance developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+via Guerciotti 33
+Legnano (MI) 12345
+Italy
+~
++39 (340) 317 8289
+~
+\href{mailto:gm.sibilla@gmail.com}{gm.sibilla@gmail.com}
+\href{https://gmbilla.github.com}{gmbilla.github.io}
+\href{https://twitter.com/giabilla}{@giabilla}
+\section{languages}
+italian mother tongue
+english fluency
+\section{programming}
+{\color{red} $\varheartsuit$} Java for Android, Python, PHP, JavaScript, ObjectiveC
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2012--2015}
+{Masters {\normalfont of Computer Science}}
+{The University of Milan}
+{Specialization in Computer Science}
+
+%------------------------------------------------
+
+\entry
+{2007--2012}
+{Bachelor {\normalfont of Computer Science}}
+{The University of Milan}
+{\emph{Face-2-face contacts detection on Android platform} \\ This thesis explored the concept of short range contact detection through a small Bluetooth framework developed for Android powered devices.}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\subsection{Full Time}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{02/15--Now}
+{Jamendo}
+{Legnano, Italy}
+{\emph{Freelance Developer} \\
+After the experience in Luxembourg I'm still collaborating with Jamendo on different solo projects. I've mainly worked on their Android app, rewriting 90\% of it to integrate a totally new design, then following the post-release bugfixing. In addition to that I've also handled the upgrade of Jamendo Lua plugin for VLC, and a couple Python project that required a full knowledge of the Jamendo ecosystem. \\
+Detailed achievements:
+\begin{itemize}
+  \item Learned to organize remote work
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{11/14--01/15}
+{Jamendo}
+{Luxembourg City, Luxembourg}
+{\emph{Web \& Mobile Developer} \\
+My duties during my short-term contract at Jamendo were really heterogeneous. I worked on a bunch of Python backend tasks, a couple of web pages used by the music team and a partial UI refactoring (a more "iOS friendly" design also supporting iPad) and bugfixing of the Jamendo iOS app. \\
+Detailed achievements:
+\begin{itemize}
+  \item Gained a basic knowledge of Zend Framework and backboneJS
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{04/14--10/14}
+{Jamendo}
+{Luxembourg City, Luxembourg}
+{\emph{Internship as Data Analyst} \\
+At Jamendo I worked on the Python backend, firstly integrating the Amazon Mechanical Turk crowdsourcing platform into the tag analysis tasks, then refactoring these tasks to be compatible with the new database architecture. This procedure allowed me to deeply analyze the tagging system, fixing some bugs and improving the overall performances. \\
+Detailed achievements:
+\begin{itemize}
+  \item Learned how to work in team
+  \item Worked on huge dataset
+  \item Dealt with complex server ecosystem
+\end{itemize}}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+\subsection{Part Time}
+
+\begin{entrylist}
+
+\entry
+{2011--2012}
+{Internet Utile ADV}
+{Rescaldina, Italy}
+{\emph{Web Developer} \\
+Supported the creation of dynamic websites in terms of database design and frontend \& backend development. \\
+Detailed achievements:
+\begin{itemize}
+  \item Designed small databases
+  \item First approach with web technologies like phpMyAdmin and jQuery
+\end{itemize}}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{skills}
+
+\textbf{advanced:} Java for Android, Python, Java, MySQL, Bash, \LaTeX{} \textbf{intermediate:} Subversion, git, Debian, Mac OS X, jQuery, CSS \textbf{basic:} Vagrant, Docker, ObjectiveC, AspectJ, Oracle Database
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} mobile development, data analysis, scripting, design pattern \textbf{personal:} b-boying, motorbike, sailing
+
+\end{document}
