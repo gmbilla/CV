@@ -1,0 +1,245 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{friggeri-custom} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+% \addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Gian Marco}{Sibilla}{freelance developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contatti}
+via Guerciotti 33
+Legnano (MI) 12345
+Italy
+~
++39 (340) 317 8289
+~
+\href{mailto:gm.sibilla@gmail.com}{gm.sibilla@gmail.com}
+\href{https://it.linkedin.com/in/gmbilla}{LinkedIn}
+\href{https://twitter.com/giabilla}{@giabilla}
+\section{lingue}
+italian mother tongue
+english fluency
+\section{programmazione}
+{\color{red} $\varheartsuit$} Java for Android, Python, PHP, JavaScript, ObjectiveC
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{istruzione}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2012--Ora}
+{Laurea Magistrale {\normalfont in Informatica}}
+{\textasciitilde luglio 2016}
+{\addfontfeature{Color=lightgray}Università degli studi di Milano}
+
+%------------------------------------------------
+
+\eduentry
+{2007--2012}
+{Laurea Triennale {\normalfont in Informatica per le Telecomunicazioni}}
+{Università degli studi di Milano}
+{23 ottobre 2012}
+{99/110}
+{Rilevazione contatti face-to-face su apparati Android}
+% {This thesis explored the concept of short range contact detection through a small Bluetooth framework developed for Android powered devices.}
+{In questa tesi ho esplorato il concetto di rilevazione di contatto a corto raggio attraverso lo sviluppo di un semplice framework per dispositivi Android.}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{esperienza}
+
+\subsection{Full Time}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\expentry
+{02/15--Ora}
+{Jamendo SA}
+{Legnano, Italia}
+{Sviluppatore freelance}
+{Contratto di collaborazione occasionale}
+% {After the experience in Luxembourg I'm still collaborating with Jamendo on different solo projects. I've mainly worked on their Android app, rewriting 90\% of it to integrate a totally new design, then following the post-release bugfixing. In addition to that I've also handled the upgrade of Jamendo Lua plugin for VLC, and a couple Python project that required a full knowledge of the Jamendo ecosystem. \\
+% Detailed achievements:
+% \begin{itemize}
+%   \item Learned to organize remote work
+% \end{itemize}}
+{Dopo l'esperienza all'estero sto ancora collaborando con Jamendo su diversi progetti. Ho principalmente lavorato sull'app Android, riscrivendone quasi in toto il codice, per integrare un nuovo design. Ho quindi seguito la release e il bugfixing dopo la pubblicazione. \\
+I progetti che ho a seguito curato hanno riguardato il plugin VLC di Jamendo e due script Python. \\
+Risultati principali:
+\begin{itemize}
+  \item Ho imparato ad utilizzare approfonditamente la piattaforma Android Studio per la creazione e il debug di applicazioni Android
+  \item Ho implementato con successo un design a partire da specifiche grafiche fornitemi dal grafico dell'azienda
+  \item Mi sono confrontato con problemi di sviluppo di applicazioni Android per dispositivi con schermi di grandezze diverse
+  \item Ho compreso e portato a termine con successo i diversi passaggi richiesti per la pubblicazione di applicazioni mobili per piattaforme Android e iOS
+  \item Sono riuscito a comprendere a fondo la complessa infrastruttura di Jamendo per il caricamento di nuovi brani
+\end{itemize}}
+
+%------------------------------------------------
+
+\expentry
+{11/14--01/15}
+{Jamendo SA}
+{Lussemburgo, Lussemburgo}
+{Sviluppatore web e mobile}
+{Contratto a tempo determinato}
+% {My duties during my short-term contract at Jamendo were really heterogeneous. I worked on a bunch of Python backend tasks, a couple of web pages used by the music team and a partial UI refactoring (a more "iOS friendly" design also supporting iPad) and bugfixing of the Jamendo iOS app. \\
+% Detailed achievements:
+% \begin{itemize}
+%   \item Gained a basic knowledge of Zend Framework and backboneJS
+% \end{itemize}}
+{Ho lavorato su diversi progetti: a partire da alcuni task del backend Python, ad alcune pagine del sito Jamendo utilizzate dal music team, fino ad una parziale ristrutturazione dell'interfaccia grafica dell'app iOS Jamendo ed un esteso bugfixing della stessa. \\
+Risultati principali:
+\begin{itemize}
+  \item Ho maturato esperienza nello sviluppo con framework MVC per PHP (Zend Framework) e JavaScript (backboneJS)
+  \item Ho familiarizzato con l'IDE Xcode per lo sviluppo debug e lo sviluppo di applicazioni iOS
+  % \item Mi sono confrontato con problemi di sviluppo di applicazioni iOS per dispositivi con schermi di grandezze diverse
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{}
+{}
+{}
+{\begin{itemize}
+  \item Mi sono confrontato con problemi di sviluppo di applicazioni iOS per dispositivi con schermi di grandezze diverse
+\end{itemize}}
+
+%------------------------------------------------
+
+\expentry
+{04/14--10/14}
+{Jamendo}
+{Lussemburgo, Lussemburgo}
+{Data analyst}
+{Tirocinio}
+% {At Jamendo I worked on the Python backend, firstly integrating the Amazon Mechanical Turk crowdsourcing platform into the tag analysis tasks, then refactoring these tasks to be compatible with the new database architecture. This procedure allowed me to deeply analyze the tagging system, fixing some bugs and improving the overall performances. \\
+% Detailed achievements:
+% \begin{itemize}
+%   \item Learned how to work in team
+%   \item Worked on huge dataset
+%   \item Dealt with complex server ecosystem
+% \end{itemize}}
+{Durante il mio primo periodo a Jamendo ho lavorato sul backend Python. In particolare ho integrato la piattaforma di crowdsourcing Amazon Mechanical Turk nel sistema di tagging musicale, che è stato a sua volta soggetto ad un refactoring (per il supporto del nuovo database e un generale miglioramento delle performance). \\
+Risultati principali:
+\begin{itemize}
+  \item Ho imparato a lavorare in team su progetti di vaste dimensioni (gestione dei progetti effettuata tramite il software online Wrike)
+  \item Ho imparato a formulare interrogazioni SQL ottimizzate per selezionare e manipolare grosse quantità di dati (nell'ordine dei milioni di righe)
+  \item Ho avuto a che fare con un complesso ecosistema di server
+  \item Ho maturato esperienza nello sviluppo con la il task manager Celery
+\end{itemize}}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+\subsection{Part Time}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\expentry
+{2013--2014}
+{Varie}
+{Legnano, Italia}
+{Sviluppatore freelance}
+{Contratto a progetto}
+% {I worked at the creation and maintenance of two website: one (for the \href{http://jackodance.it}{JackoDance} dance school) using Wordpress, and customizing a chosen theme; the other (for a \href{http://crossfitlegnano.com}{CrossFit gym in Legnano}) building from scratch a small PHP framework backed by a MySQL database. \\
+% Detailed achievements:
+% \begin{itemize}
+%   \item Gained a good knowledge of the Wordpress framework
+%   \item Learned how to structure object oriented PHP code
+%   \item Faced and (\textasciitilde)solved UI design challenges
+% \end{itemize}}
+{Ho lavorato alla creazione e al mantenimento di due siti web: uno (per la scuola di danza \href{http://jackodance.it}{JackoDance}) utilizzando WorkPress; l'altro (per una palestra di \href{http://crossfitlegnano.com}{CrossFit a Legnano}) creando da zero un semplice framework PHP supportato da una base di dati MySQL. \\
+Risultati principali:
+\begin{itemize}
+  \item Ho ottenuto una buona conoscenza del framework WordPress (i.e. parziale modifica di un tema sia nella parte frontend che backend)
+  \item Ho imparato a strutturare codice PHP orientato agli oggetti
+  \item Ho affrontato e (in buona parte) risolto delle sfide di UI design
+\end{itemize}}
+
+%------------------------------------------------
+
+\expentry
+{2011--2012}
+{Internet Utile ADV}
+{Rescaldina, Italia}
+{Sviluppatore web}
+{Contratto a progetto}
+% {Supported the creation of dynamic websites in terms of database design and frontend \& backend development. \\
+% Detailed achievements:
+% \begin{itemize}
+%   \item Designed small databases
+%   \item First approach with web technologies like phpMyAdmin and jQuery
+% \end{itemize}}
+{Ho supportato la creazione di siti web dinamici in termini di progettazione di basi di dati e assistenza allo sviluppo frontend e backend. \\
+Risultati principali:
+\begin{itemize}
+  \item Ho affrontato per la prima volta le sfide della creazione di basi di dati a supporto di siti web dinamici (i.e. e-commerce e gestionali)
+  \item Ho imparato ad utilizzare strumenti come phpMyAdmin e librerie come jQuery
+\end{itemize}}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{capacità}
+
+\textbf{avanzate:} Java for Android, Python, Java, MySQL, Bash, \LaTeX{} \textbf{intermedie:} Subversion, git, Debian, Mac OS X, Material design, jQuery, CSS \textbf{base:} Vagrant, Docker, ObjectiveC, iOS UI design, AspectJ, Oracle Database
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interessi}
+
+\textbf{professionali:} sviluppo applicazioni per device mobili, data analysis, scripting, design pattern \textbf{personali:} b-boying, motocicletta, barca a vela
+
+\end{document}
